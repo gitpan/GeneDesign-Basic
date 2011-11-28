@@ -1,0 +1,42 @@
+---
+abstract: 'perl functions for computer assisted synthetic design'
+author:
+  - 'Sarah Richardson <notadoctor@jhu.edu>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
+license: bsd
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: GeneDesign-Basic
+provides:
+  GeneDesign::Basic:
+    file: lib/GeneDesign/Basic.pm
+    version: 3
+  GeneDesign::Codons:
+    file: lib/GeneDesign/Codons.pm
+    version: 3
+  GeneDesign::HTML:
+    file: lib/GeneDesign/HTML.pm
+    version: 3
+  GeneDesign::Random:
+    file: lib/GeneDesign/Random.pm
+    version: 3
+  GeneDesign::RestrictionEnzymes:
+    file: lib/GeneDesign/RestrictionEnzymes.pm
+    version: 3
+  GeneDesign::SufTree:
+    file: lib/GeneDesign/SufTree.pm
+    version: 0
+requires:
+  List::Util: 0
+  Perl6::Slurp: 0.03
+  Text::Wrap: 2009.0305
+  perl: 5.006
+resources:
+  license: http://opensource.org/licenses/bsd-license.php
+version: 3
